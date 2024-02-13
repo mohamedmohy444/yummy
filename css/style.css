@@ -1,0 +1,52 @@
+body{
+    background-color: #1c1c1c;
+    color: #fff ;
+}
+
+i{
+    cursor: pointer;
+}
+ul li {
+    cursor: pointer;
+}
+.openNav{
+    z-index: 6136719;
+}
+.allTab{
+    background-color: #1c1c1c;
+}
+.openNav .allTab .allLinks ul li:hover{
+    color: darkmagenta;
+    transition: all 0.5s;
+}
+
+.layerFood{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: all 0.5s;
+    justify-content: center;
+}
+.yummyFood:hover .layerFood{
+    top: 0;
+}
+
+.toClick{
+    cursor: pointer;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #1c1c1c;
+    display: flex;
+}
+.headNav{
+    height:100vh  !important;
+}
